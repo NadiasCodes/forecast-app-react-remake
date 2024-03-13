@@ -37,10 +37,11 @@
   color: blueviolet;
 }
 
-.weather-box .icon {
+svg {
   position: relative;
   bottom: 20px;
-  width: 70px;
+  width: 89px;
+  
 }
 
 .weather-box .unit {

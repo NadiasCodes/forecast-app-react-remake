@@ -16,7 +16,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       feelslike: response.data.temperature.feels_like,
       temperature: response.data.temperature.current,
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/cloudy.png",
+      icon: response.data.condition.icon,
       date: new Date(response.data.time * 1000),
     });
   }
